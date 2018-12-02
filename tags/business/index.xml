@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Business on Patrick O&#39;Sullivan</title>
+    <link>https://ptrcko.com/tags/business/</link>
+    <description>Recent content in Business on Patrick O&#39;Sullivan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 23 Aug 2018 16:18:44 +1000</lastBuildDate>
+    
+	<atom:link href="https://ptrcko.com/tags/business/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>10X Sales</title>
+      <link>https://ptrcko.com/posts/10x-sales/</link>
+      <pubDate>Thu, 23 Aug 2018 16:18:44 +1000</pubDate>
+      
+      <guid>https://ptrcko.com/posts/10x-sales/</guid>
+      <description>  (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=&#34;typef_orm&#34;, b=&#34;https://embed.typeform.com/&#34;; if(!gi.call(d,id)) { js=ce.call(d,&#34;script&#34;); js.id=id; js.src=b+&#34;embed.js&#34;; q=gt.call(d,&#34;script&#34;)[0]; q.parentNode.insertBefore(js,q) } })()  powered by Typeform  </description>
+    </item>
+    
+    <item>
+      <title>Thinking of Starting a Business? Here&#39;s My Reading List</title>
+      <link>https://ptrcko.com/posts/thinking-starting-business-here-my-reading-list/</link>
+      <pubDate>Thu, 23 Aug 2018 16:18:44 +1000</pubDate>
+      
+      <guid>https://ptrcko.com/posts/thinking-starting-business-here-my-reading-list/</guid>
+      <description>&lt;p&gt;Every now and then I meet someone who has made the decision to become their own boss.&lt;/p&gt;
+
+&lt;p&gt;When I do, I pull out this list of bookmarks and email it to them.
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
