@@ -106,7 +106,7 @@
 			}, 200);
 
 		// Clear transitioning state on unload/hide.
-			$window.on('unload pagehide', function() {
+			$window.on('visibilitychange pagehide', function() {
 				window.setTimeout(function() {
 					$('.is-transitioning').removeClass('is-transitioning');
 				}, 250);
