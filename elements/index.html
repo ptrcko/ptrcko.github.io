@@ -525,18 +525,22 @@ print 'It took ' + i + ' iterations to sort the deck.';
 					<h3>Contact Us</h3>
 					<p>We offer a free, no obligation consultation to discuss your software needs. Please complete the form below and one of our team will get in touch.</p>
 				</div>
-				<form action="https://formspree.io/" method="POST">
+				<form action="https://script.google.com/macros/s/AKfycbxV5zFovLhCSa_Uc0WRS_1jgSP6LBFw28R9czlNXeLd-5Rpvr1UAR2OVfPxIVptnoOI/exec" method="POST">
 					<div class="field half first">
 						<label for="name">Name</label>
-						<input type="text" name="name" id="name" />
+						<input type="text" required name="name" id="name" />
 					</div>
 					<div class="field half">
 						<label for="business_email">Business Email</label>
-						<input type="text" name="business_email" id="business_email" />
+						<input type="text" required name="business_email" id="business_email" />
 					</div>
 					<div class="field">
 						<label for="phone_number">Phone Number</label>
 						<input type="tel" name="phone_number" id="phone_number" />
+					</div>
+					<div class="field spot" style="display:none !important">
+						<label for="spot">Spot</label>
+						<input type="text" name="spot" id="spot" autocomplete="off" tabindex="-1"/>
 					</div>
 					<label>What are your current priorities?</label>
 					<input type="checkbox" id="priority1" name="priority1" value="Sales">
