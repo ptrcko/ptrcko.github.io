@@ -24,7 +24,6 @@
 	<!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
 	<link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
-
 </head>
 
 
@@ -146,9 +145,29 @@ We act as an extension of our client’s team and provide the skills and experti
 				<div class="contact-method">
 					<span class="icon alt fa-envelope"></span>
 					<h3>Contact Us</h3>
-					<p>We offer a free, no obligation consultation to discuss your software needs. Please complete the form below and one of our team will get in touch.</p>
+					<p>We offer a free, no obligation consultation to discuss your software needs. Please contact us on the email below and one of our team will get in touch.</p>
+					<div>
+						<input size="28" id="contactme" value="contact (at) atomdigital.com.au" onClick="contactMeSelect(this)" onfocusout="hideMessage()"></input>
+						<div style="display:none" id="contactSelected">Address selected. Ready to be copied.</div>
+						<script>
+							var input = document.getElementById("contactme");
+							input.value= input.value.replaceAll("(at)","@");
+							input.value= input.value.replaceAll(" ","");
+							function contactMeSelect(e){
+								e.select();
+								document.getElementById("contactSelected").style.display = "block";
+
+							}
+							function hideMessage(){
+								document.getElementById("contactSelected").style.display = "none";
+
+							}
+						</script>
+					</div>
 				</div>
-				<form action="https://script.google.com/macros/s/AKfycbxV5zFovLhCSa_Uc0WRS_1jgSP6LBFw28R9czlNXeLd-5Rpvr1UAR2OVfPxIVptnoOI/exec" method="POST">
+				
+				<!-- Hiding form until I decide how to handle the responses 
+				<form action="<<TO BE DEFINED>>" method="POST">
 					<div class="field half first">
 						<label for="name">Name</label>
 						<input type="text" required name="name" id="name" />
@@ -180,6 +199,7 @@ We act as an extension of our client’s team and provide the skills and experti
 						<li><input type="submit" value="Send Message" class="special" /></li>
 					</ul>
 				</form>
+				-->
 			</section>
 		</section>
 		<section class="split">
@@ -234,16 +254,23 @@ We act as an extension of our client’s team and provide the skills and experti
 
 </div>
 
-<!-- Scripts -->
+<!-- Scripts -->	
 	<script src="/assets/js/jquery.min.js"></script>
 	<script src="/assets/js/jquery.scrolly.min.js"></script>
 	<script src="/assets/js/jquery.scrollex.min.js"></script>
 	<script src="/assets/js/skel.min.js"></script>
 	<script src="/assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="/assets/js/main.js"></script>
+	<script src="/assets/js/main.js"></script> -->
 
 
 </body>
-
+<!-- Scripts -->
+<script src="/assets/js/jquery.min.js"></script>
+<script src="/assets/js/jquery.scrolly.min.js"></script>
+<script src="/assets/js/jquery.scrollex.min.js"></script>
+<script src="/assets/js/skel.min.js"></script>
+<script src="/assets/js/util.js"></script>
+<!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="/assets/js/main.js"></script>
 </html>
