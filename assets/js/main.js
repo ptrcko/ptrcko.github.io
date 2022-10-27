@@ -96,7 +96,7 @@
 			$body = $('body'),
 			$wrapper = $('#wrapper'),
 			$header = $('#header'),
-			$banner = $('#banner');
+			$banner = $('#banner,#scroller');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
