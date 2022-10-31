@@ -166,7 +166,7 @@
 						
 						//$x.attr('aria-label', $link.text());
 
-						$link = $link.add($x);
+						//$link = $link.add($x);
 
 						$link.on('click', function(event) {
 
