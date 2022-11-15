@@ -5,9 +5,9 @@
   
         
     <url>
-        <loc>https://www.atomdigital.com.au/about/</loc>
+        <loc>http://localhost:4000/about/</loc>
         
-        <lastmod>2022-11-14T18:18:47+11:00</lastmod>
+        <lastmod>2022-11-15T16:18:41+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -20,50 +20,9 @@
   
         
     <url>
-        <loc>https://www.atomdigital.com.au/examples-of-digital-transformation/</loc>
+        <loc>http://localhost:4000/examples-of-digital-transformation/</loc>
         
-        <lastmod>2022-11-14T18:18:47+11:00</lastmod>
-        
-        <changefreq>monthly</changefreq>
-        <priority>0.3</priority>
-    </url>
-    
-  
-        
-  
-        
-    <url>
-        <loc>https://www.atomdigital.com.au/</loc>
-        
-        <lastmod>2022-11-14T18:18:47+11:00</lastmod>
-        
-        <changefreq>monthly</changefreq>
-        <priority>0.3</priority>
-    </url>
-    
-  
-        
-  
-        
-  
-        
-  
-        
-    <url>
-        <loc>https://www.atomdigital.com.au/software-consultancy-rate-card/</loc>
-        
-        <lastmod>2022-11-14T18:18:47+11:00</lastmod>
-        
-        <changefreq>monthly</changefreq>
-        <priority>0.3</priority>
-    </url>
-    
-  
-        
-    <url>
-        <loc>https://www.atomdigital.com.au/services/</loc>
-        
-        <lastmod>2022-11-14T18:18:47+11:00</lastmod>
+        <lastmod>2022-11-15T16:18:41+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -74,9 +33,50 @@
   
         
     <url>
-        <loc>https://www.atomdigital.com.au/what-we-do/</loc>
+        <loc>http://localhost:4000/</loc>
         
-        <lastmod>2022-11-14T18:18:47+11:00</lastmod>
+        <lastmod>2022-11-15T16:18:41+11:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+  
+        
+  
+        
+  
+        
+  
+        
+    <url>
+        <loc>http://localhost:4000/software-consultancy-rate-card/</loc>
+        
+        <lastmod>2022-11-15T16:18:41+11:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+  
+        
+    <url>
+        <loc>http://localhost:4000/services/</loc>
+        
+        <lastmod>2022-11-15T16:18:41+11:00</lastmod>
+        
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
+  
+        
+  
+        
+    <url>
+        <loc>http://localhost:4000/what-we-do/</loc>
+        
+        <lastmod>2022-11-15T16:18:41+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
