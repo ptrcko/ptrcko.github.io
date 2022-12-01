@@ -7,7 +7,7 @@
     <url>
         <loc>http://localhost:4000/about/</loc>
         
-        <lastmod>2022-12-02T10:11:41+11:00</lastmod>
+        <lastmod>2022-12-02T10:13:55+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -20,7 +20,7 @@
     <url>
         <loc>http://localhost:4000/book-a-meeting/</loc>
         
-        <lastmod>2022-12-02T10:11:41+11:00</lastmod>
+        <lastmod>2022-12-02T10:13:55+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -35,7 +35,7 @@
     <url>
         <loc>http://localhost:4000/examples-of-digital-transformation/</loc>
         
-        <lastmod>2022-12-02T10:11:41+11:00</lastmod>
+        <lastmod>2022-12-02T10:13:55+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -48,7 +48,7 @@
     <url>
         <loc>http://localhost:4000/</loc>
         
-        <lastmod>2022-12-02T10:11:41+11:00</lastmod>
+        <lastmod>2022-12-02T10:13:55+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -65,7 +65,7 @@
     <url>
         <loc>http://localhost:4000/software-consultancy-rate-card/</loc>
         
-        <lastmod>2022-12-02T10:11:41+11:00</lastmod>
+        <lastmod>2022-12-02T10:13:55+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -78,7 +78,7 @@
     <url>
         <loc>http://localhost:4000/what-we-do/</loc>
         
-        <lastmod>2022-12-02T10:11:41+11:00</lastmod>
+        <lastmod>2022-12-02T10:13:55+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -92,7 +92,7 @@
     <url>
         <loc>http://localhost:4000/services/business-phone-system</loc>
         
-        <lastmod>2022-12-02T10:11:41+11:00</lastmod>
+        <lastmod>2022-12-02T10:13:55+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -103,7 +103,7 @@
     <url>
         <loc>http://localhost:4000/services/business-process-automation</loc>
         
-        <lastmod>2022-12-02T10:11:41+11:00</lastmod>
+        <lastmod>2022-12-02T10:13:55+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -116,7 +116,7 @@
     <url>
         <loc>http://localhost:4000/services/</loc>
         
-        <lastmod>2022-12-02T10:11:41+11:00</lastmod>
+        <lastmod>2022-12-02T10:13:55+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -127,7 +127,7 @@
     <url>
         <loc>http://localhost:4000/services/process-outsourcing</loc>
         
-        <lastmod>2022-12-02T10:11:41+11:00</lastmod>
+        <lastmod>2022-12-02T10:13:55+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -138,7 +138,7 @@
     <url>
         <loc>http://localhost:4000/services/sales-automation</loc>
         
-        <lastmod>2022-12-02T10:11:41+11:00</lastmod>
+        <lastmod>2022-12-02T10:13:55+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -149,7 +149,7 @@
     <url>
         <loc>http://localhost:4000/services/system-integration</loc>
         
-        <lastmod>2022-12-02T10:11:41+11:00</lastmod>
+        <lastmod>2022-12-02T10:13:55+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
@@ -160,7 +160,7 @@
     <url>
         <loc>http://localhost:4000/services/workflow-automation</loc>
         
-        <lastmod>2022-12-02T10:11:41+11:00</lastmod>
+        <lastmod>2022-12-02T10:13:55+11:00</lastmod>
         
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
