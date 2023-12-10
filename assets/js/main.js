@@ -349,4 +349,8 @@
 
 	});
 
+    $( function() {
+      $( "#accordion,#accordion2" ).accordion();
+    });
+
 })(jQuery);
