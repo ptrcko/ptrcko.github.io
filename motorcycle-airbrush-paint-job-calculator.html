@@ -14,9 +14,9 @@
     We use this as it is a very fast, lightweight and free way to build
     a professional services website.
 -->
-<head><title>Free software resources for business | ATOM Digital | ATOM Digital</title>
+<head><title>Motorcycle Airbrush Paint Job Calculator | ATOM Digital</title>
 	
-	<meta name="description" content="A set of free tools and resources for business owners and managers from ATOM Digital">
+	<meta name="description" content="Estimate the cost of a custom motorcycle airbrush paint job based on your preferences. Choose finish, paint complexity, and more.">
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--[if lte IE 8]><script src="/assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -67,10 +67,173 @@
 		<section id="one">
 			<div class="inner">
 				<header class="major">
-					<h1>New Resources</h1>
+					<h1>Motorcycle Airbrush Paint Job Calculator</h1>
 				</header>
 				
-				
+				<style>
+  .section {
+    margin-bottom: 30px;
+  }
+  .section h2 {
+    margin-top: 0;
+  }
+  .section-intro {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  select, input {
+    width: 100%;
+    padding: 6px;
+    background-color: #2a2a3a;
+    border: 1px solid #555;
+    color: #fff;
+  }
+  .result-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+  }
+  .input-sections {
+    flex: 1 1 60%;
+    min-width: 300px;
+  }
+  .result {
+    flex: 1 1 35%;
+    background: #2c2c3f;
+    padding: 15px;
+    border: 1px solid #555;
+    color: #f0f0f0;
+    min-width: 250px;
+  }
+  .picked-item {
+    margin-bottom: 8px;
+  }
+  @media (max-width: 768px) {
+    .result-container {
+      flex-direction: column;
+    }
+  }
+</style>
+
+<h3 id="-motorcycle-airbrush-paint-job-calculator">🎨 Motorcycle Airbrush Paint Job Calculator</h3>
+
+<p>Estimate the cost of a custom paint job based on your selections. This is a general guide — exact quotes are only provided after a paid design consultation.</p>
+
+<p><strong>💬 Note:</strong> A design consultation costs $1,500. If you proceed with the job, that amount will be fully credited toward your final cost.</p>
+
+<div class="result-container">
+  <div class="input-sections">
+    <div class="section">
+      <h2>🚲 Bike &amp; Prep</h2>
+      <p class="section-intro">What kind of work are we doing on your bike?</p>
+      <label>Bike Coverage</label>
+      <select id="bikeCoverage">
+        <option value="0">Tank Only</option>
+        <option value="500">Tank + Fenders (+$500)</option>
+        <option value="1000">Full Bike (+$1000)</option>
+      </select>
+
+      <label style="margin-top:10px;">Surface Prep</label>
+      <select id="surfacePrep">
+        <option value="0">New/Primed</option>
+        <option value="250">Light Sand &amp; Clean (+$250)</option>
+        <option value="500">Old Paint Removal (+$500)</option>
+        <option value="800">Rust Removal (+$800)</option>
+      </select>
+    </div>
+
+    <div class="section">
+      <h2>🎨 Paint Style</h2>
+      <p class="section-intro">Choose the level of complexity and effect.</p>
+      <label>Paint Complexity</label>
+      <select id="paintComplexity">
+        <option value="0">Solid Colour</option>
+        <option value="400">Two-Tone / Fade (+$400)</option>
+        <option value="750">Simple Graphics (+$750)</option>
+        <option value="1500">Full Custom Artwork (+$1500)</option>
+      </select>
+
+      <label style="margin-top:10px;">Number of Colours</label>
+      <select id="colourCount">
+        <option value="0">1 Colour</option>
+        <option value="250">2–3 Colours (+$250)</option>
+        <option value="500">4+ Colours (+$500)</option>
+      </select>
+
+      <label style="margin-top:10px;">Clear Coat Finish</label>
+      <select id="clearFinish">
+        <option value="0">Gloss</option>
+        <option value="300">High Gloss (+$300)</option>
+        <option value="500">Candy / Pearl (+$500)</option>
+        <option value="800">Show Finish (+$800)</option>
+      </select>
+    </div>
+
+    <div class="section">
+      <h2>✨ Extras</h2>
+      <p class="section-intro">Optional enhancements for maximum impact.</p>
+      <label>Special Effects</label>
+      <select id="specialEffects">
+        <option value="0">None</option>
+        <option value="300">Metal Flake (+$300)</option>
+        <option value="600">Gold / Silver Leaf (+$600)</option>
+        <option value="1000">Glow or 3D Effects (+$1000)</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="result" id="results"></div>
+</div>
+
+<script>
+  function calculatePaintJob() {
+    const basePrice = 5000;
+
+    const selections = {
+      'Bike Coverage': document.getElementById('bikeCoverage').selectedOptions[0].text,
+      'Surface Prep': document.getElementById('surfacePrep').selectedOptions[0].text,
+      'Paint Complexity': document.getElementById('paintComplexity').selectedOptions[0].text,
+      'Number of Colours': document.getElementById('colourCount').selectedOptions[0].text,
+      'Clear Coat Finish': document.getElementById('clearFinish').selectedOptions[0].text,
+      'Special Effects': document.getElementById('specialEffects').selectedOptions[0].text,
+    };
+
+    const adjustments = [
+      parseFloat(document.getElementById('bikeCoverage').value),
+      parseFloat(document.getElementById('surfacePrep').value),
+      parseFloat(document.getElementById('paintComplexity').value),
+      parseFloat(document.getElementById('colourCount').value),
+      parseFloat(document.getElementById('clearFinish').value),
+      parseFloat(document.getElementById('specialEffects').value),
+    ];
+
+    const estimate = basePrice + adjustments.reduce((a, b) => a + b, 0);
+
+    let pickedHtml = '<h2>📋 Your Selections</h2>';
+    for (const [label, value] of Object.entries(selections)) {
+      pickedHtml += `<div class="picked-item"><strong>${label}:</strong> ${value}</div>`;
+    }
+
+    pickedHtml += `
+      <h2 style="margin-top:20px;">💰 Estimated Total</h2>
+      <p style="font-size: 1.2em;"><strong>$${estimate.toLocaleString()}</strong></p>
+      <p style="font-size: 0.85em; color: #aaa;">
+        A paid design consultation ($1,500) is required for a full quote. This fee is credited if you proceed with the job.
+      </p>
+    `;
+
+    document.getElementById('results').innerHTML = pickedHtml;
+  }
+
+  document.querySelectorAll('select').forEach(input => {
+    input.addEventListener('change', calculatePaintJob);
+  });
+
+  window.addEventListener('DOMContentLoaded', calculatePaintJob);
+</script>
+
 
 			</div>
 		</section>
